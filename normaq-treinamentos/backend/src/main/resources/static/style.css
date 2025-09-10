@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #1f77b4;
+    border-color: #1f77b4;
+}
+
+.btn-primary:hover {
+    background-color: #1668a0;
+    border-color: #1668a0;
+}
+
+.table th {
+    background-color: #1f77b4;
+    color: white;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    color: #128C7E;
+    text-decoration: underline;
+}
