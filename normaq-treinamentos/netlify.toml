@@ -1,4 +1,11 @@
 [build]
-  publish = "backend/src/main/resources/static"
-
+  publish = "backend/src/main/resources/static"  # ←←← ALTERE PARA AQUI!
   command = "cd backend && mvn clean package -DskipTests"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  JAVA_VERSION = "11"
