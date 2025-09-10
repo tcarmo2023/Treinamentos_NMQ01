@@ -1,3 +1,4 @@
 [build]
-  publish = "backend/target/classes/static"
+  publish = "backend/src/main/resources/static"
+
   command = "cd backend && mvn clean package -DskipTests"
